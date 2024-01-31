@@ -1,0 +1,20 @@
+from turtle import*
+color("blue")
+begin_fill()
+pensize(3)
+left(50)
+forward(133)
+circle(50,200)
+right(140)
+circle(50,200)
+forward(133)
+end_fill()
+
+penup()
+goto(0,-50)
+pendown()
+color("blue")
+write("I love you",align='center',
+     font=("Brush Script TM", 45,"normal"))
+hideturtle()
+done()
